@@ -14,7 +14,7 @@ class TrafficLightApp:
         self.head1.grid(row=0, column=0)
 
         self.head2 = tk.Label(
-            root, text='Козы', font=('Helvetica', 18),)
+            root, text='Коровы', font=('Helvetica', 18),)
         self.head2.grid(row=1, column=0)
         
         # Настройка меток для отображения состояний светофоров
@@ -36,20 +36,20 @@ class TrafficLightApp:
             self.label1.config(bg='green')
             self.label2.config(bg='red')
             self.update_gui()
-            time.sleep(5)
+            time.sleep(15)
 
             self.label1.config(bg='yellow')
             self.update_gui()
-            time.sleep(3)
+            time.sleep(5)
 
             self.label1.config(bg='red')
             self.label2.config(bg='green')
             self.update_gui()
-            time.sleep(5)
+            time.sleep(15)
 
             self.label2.config(bg='yellow')
             self.update_gui()
-            time.sleep(3)
+            time.sleep(5)
 
     def update_gui(self):
         # Обновление GUI

@@ -67,7 +67,7 @@ class TrafficLightApp:
 
             self.label2.config(bg='yellow')
             self.update_gui()
-            time.sleep(3)
+            time.sleep(5)
 
     def update_gui(self):
         # Обновление GUI
