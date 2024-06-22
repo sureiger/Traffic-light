@@ -24,10 +24,10 @@ class TrafficLightApp:
         # Настройка меток для отображения заслонки
         self.damper1 = tk.Label(root, textvariable=self.state1,
                                 font=('Helvetica', 18))
-        self.damper1.grid(row=0, column=3)
+        self.damper1.grid(row=0, column=2)
         self.damper2 = tk.Label(root, textvariable=self.state2,
                                 font=('Helvetica', 18))
-        self.damper2.grid(row=1, column=3)
+        self.damper2.grid(row=1, column=2)
 
         # Настройка меток для отображения состояний светофоров
         self.label1 = tk.Label(
