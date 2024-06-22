@@ -4,7 +4,7 @@ import time
 
 
 class TrafficLightApp:
-    def init(self, root):
+    def __init__(self, root):
         self.root = root
         self.root.title("Управление Светофорами")
 
